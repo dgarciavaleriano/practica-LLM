@@ -750,6 +750,7 @@ dependencies = [
     { name = "numpy" },
     { name = "openai" },
     { name = "pypdf" },
+    { name = "requests" },
 ]
 
 [package.metadata]
@@ -761,6 +762,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "openai", specifier = ">=3.35.1" },
     { name = "pypdf", specifier = ">=6.21.1" },
+    { name = "requests", specifier = ">=2.34.2" },
 ]
 
 [[package]]
